@@ -14,10 +14,6 @@ function SummaryCard({ metrics }) {
       <h3>Repayment Summary</h3>
       <div className="metrics-grid">
         <div className="metric-item">
-          <span className="metric-label">Total Amount</span>
-          <span className="metric-value">{formatCurrency(metrics.total_payments)}</span>
-        </div>
-        <div className="metric-item">
           <span className="metric-label">Average Payment</span>
           <span className="metric-value">{formatCurrency(metrics.average_payment)}</span>
         </div>
